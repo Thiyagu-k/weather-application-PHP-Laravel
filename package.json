@@ -1,6 +1,10 @@
 {
     "private": true,
     "type": "module",
+    "name": "Weather-app",  
+    "version": "1.0.0",
+    "description": "Weather Application with Laravel and Vite",
+    "main": "index.js",
     "scripts": {
         "build": "vite build",
         "dev": "vite"
@@ -13,5 +17,9 @@
         "postcss": "^8.4.49",
         "tailwindcss": "^3.4.15",
         "vite": "^5.0"
-    }
+    },
+    "dependencies": {
+        "vue": "^3.0.0",  
+        "vue-router": "^4.0.0" 
+      }
 }
