@@ -1,7 +1,6 @@
 {
     "private": true,
     "type": "module",
-    "name": "Weather-app",  
     "version": "1.0.0",
     "description": "Weather Application with Laravel and Vite",
     "main": "index.js",
