@@ -1,13 +1,22 @@
 {
+    "version": 2,
     "builds": [
-      {
-        "src": "public/index.php",
-        "use": "@vercel/static-build",
-        "config": { "distDir": "public" }
-      }
+        {
+            "src": "resources/js/app.js",
+            "use": "@vercel/static-build",
+            "config": {
+                "distDir": "public"
+            }
+        },
+        {
+            "src": "public/index.php",
+            "use": "@vercel/php"
+        }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "/public/index.php" }
+        {
+            "src": "/(.*)",
+            "dest": "/public/index.php"
+        }
     ]
-  }
-  
+}
